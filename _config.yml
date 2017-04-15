@@ -7,9 +7,9 @@
 
 # Site settings
 title: Aprenent dia a dia
-email: 
+email: sasogu@edutictac.es
 description: > # this means to ignore newlines until "baseurl:"
-Cada dia és un bon dia
+  Cada dia és un bon dia.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sasogu.github.io/" # the base hostname & protocol for your site
 twitter_username: sasogu
@@ -17,3 +17,24 @@ github_username:  sasogu
 
 # Build settings
 markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 100
+paginate_path: "/blog/page:num"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+  productivity:
+    output: true
+    permalink: /productivity/:path/
+
+# Gems
+gems: [jekyll-paginate]

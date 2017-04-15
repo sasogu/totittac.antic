@@ -1,22 +1,8 @@
 # Site settings
-title: sasogu
-email: sasogu@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Un espai editat per sasogu
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://sasogu.github.io/"  # the base hostname & protocol for your site
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Aprenent dia a dia
+title: TotTicTac
 email: sasogu@edutictac.es
 description: > # this means to ignore newlines until "baseurl:"
-  Cada dia és un bon dia.
+  Aprenent cada dia.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sasogu.github.io/" # the base hostname & protocol for your site
 

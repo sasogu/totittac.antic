@@ -2,7 +2,7 @@
 title: TotTicTac
 email: sasogu@edutictac.es
 description: > # this means to ignore newlines until "baseurl:"
-  Aprenent cada dia.
+   @sasogu
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sasogu.github.io/" # the base hostname & protocol for your site
 

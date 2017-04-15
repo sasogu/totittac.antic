@@ -10,7 +10,6 @@ dl, dd, ol, ul, figure {
 
 
 
-<<<<<<< HEAD
 /** Variables **********************************************/
 $base-font-family:              Helvetica, sans-serif;
 $base-line-height:              1.5em;
@@ -43,13 +42,10 @@ $theme-color:   $red;
 
 /************************************************************/
 
-=======
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 /**
  * Basic styling
  */
 body {
-<<<<<<< HEAD
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -57,17 +53,6 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
-=======
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 }
 
 
@@ -75,7 +60,6 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-<<<<<<< HEAD
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
@@ -97,27 +81,6 @@ hr{
 }
 
 
-=======
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
-
-
-
-/**
- * Images
- */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-
-
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 /**
  * Figures
  */
@@ -135,11 +98,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-<<<<<<< HEAD
     margin-left: $horizontal-spacing-unit;
-=======
-    margin-left: $spacing-unit;
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 }
 
 li {
@@ -155,23 +114,14 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-<<<<<<< HEAD
     font-weight: 100;
 }
 
 
-=======
-    font-weight: $base-font-weight;
-}
-
-
-
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 /**
  * Links
  */
 a {
-<<<<<<< HEAD
     color: $text-color;
     text-decoration: none;
     /*
@@ -191,18 +141,6 @@ article a {
 
     &:hover {
         text-decoration: none;
-=======
-    color: $brand-color;
-    text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
     }
 }
 
@@ -211,7 +149,6 @@ article a {
 /**
  * Blockquotes
  */
-<<<<<<< HEAD
 
 /**
 * blockquote {
@@ -253,19 +190,6 @@ img {
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
-=======
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 }
 
 
@@ -276,14 +200,8 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-<<<<<<< HEAD
     border-radius: 3px;
     background-color: $grey-color-light;
-=======
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 }
 
 code {
@@ -292,11 +210,7 @@ code {
 
 pre {
     padding: 8px 12px;
-<<<<<<< HEAD
     overflow-x: scroll;
-=======
-    overflow-x: auto;
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 
     > code {
         border: 0;
@@ -309,7 +223,6 @@ pre {
 
 /**
  * Wrapper
-<<<<<<< HEAD
  */ 
 
 .wrapper {
@@ -324,40 +237,17 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
         max-width:         calc(800px - (#{$horizontal-spacing-unit}));
-=======
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
 }
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
 /**
  * Clearfix
  */
 %clearfix {
-<<<<<<< HEAD
     &:before,
-=======
-
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
     &:after {
         content: "";
         display: table;
@@ -368,7 +258,6 @@ pre {
 
 
 /**
-<<<<<<< HEAD
 * Afegit: Modificació pseudoclasses ol
 */
 ol {
@@ -411,20 +300,3 @@ li ul {margin-top:6px;}
 ol ol li:last-child {margin-bottom:0;}
 
 
-=======
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # sasogu
 
 The goal of this repository is talk about tecnology than I use.
@@ -9,7 +9,5 @@ The goal of this repository is talk about tecnology than I use.
 
 [http://sasogu.github.io](http://sasogu.github.io)
 ======================================================================
-=======
+
 # sasogu.github.io
-Pàgina personal
->>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd

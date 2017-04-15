@@ -7,7 +7,7 @@
 
 # Site settings
 title: Aprenent dia a dia
-email: sasogu@edutictac.es
+email: 
 description: > # this means to ignore newlines until "baseurl:"
 Cada dia és un bon dia
 baseurl: "" # the subpath of your site, e.g. /blog

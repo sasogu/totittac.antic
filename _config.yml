@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+# Site settings
+title: sasogu
+email: sasogu@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Un espai editat per sasogu
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://sasogu.github.io/"  # the base hostname & protocol for your site
+=======
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Aprenent dia a dia
+email: sasogu@edutictac.es
+description: > # this means to ignore newlines until "baseurl:"
+  Cada dia és un bon dia.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sasogu.github.io/" # the base hostname & protocol for your site
+>>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
+twitter_username: sasogu
+github_username:  sasogu
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 100
+paginate_path: "/blog/page:num"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+<<<<<<< HEAD
+=======
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+>>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
+  productivity:
+    output: true
+    permalink: /productivity/:path/
+
+# Gems
+gems: [jekyll-paginate]
+<<<<<<< HEAD
+
+# Port
+port: 4001 # Canvia el port del server al 4001
+=======
+>>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd

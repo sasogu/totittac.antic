@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<<<<<<< HEAD
+    <channel>
+        <title>sasogu</title>
+        <description>Un espai editat per sasogu
+</description>
+        <link>https://sasogu.github.io//</link>
+        <atom:link href="https://sasogu.github.io//feed.xml" rel="self"
+        type="application/rss+xml"/>
+        <pubDate>Sun, 16 Apr 2017 00:32:58 +0200</pubDate>
+        <lastBuildDate>Sun, 16 Apr 2017 00:32:58 +0200</lastBuildDate>
+        <generator>Jekyll v3.0.1</generator>
+        
+        <item>
+            <title>Experiències amb un #Chromebook i #GalliumOS</title>
+            <description>&lt;p&gt;Fa uns mesos que sóc el feliç propietari d’un &lt;a href=&quot;https://www.acer.com/ac/es/ES/content/professional-series/acerchromebookr11c738t&quot;&gt;Acer Chromebook R 11&lt;/a&gt;, pels que no conegueu aquest tipus de maquinari, bàsicament es tracta d’un portàtil que executa Linux i el navegador Chrome, però només aquest és «visible». Quan executes el sistema disposes  del navegador i un explorador d’arxius (el local i el del núvol).&lt;/p&gt;
+
+&lt;p&gt;En les últimes versions a més es poden instal·lar aplicacions d’Android, gran jugada de Google sens dubte per donar valor als Chromebooks. Com que ja tinc dispositius que executen aplicacions Android no necessite aquesta funcionalitat.&lt;/p&gt;
+
+&lt;p&gt;Personalment el que més m’agrada és el hardware, necessitava una màquina lleugera i barata per tal de portar-la sempre a la motxilla. Chromebook sobre el paper complia aquestes premisses, vaig aconseguir una molt bona oferta a meitat de preu i no m’ho vaig pensar. Des del principi em va sorprendre la fluïdesa amb la qual funcionava tot, arrancant molt ràpidament i sobretot l’autonomia que em permetia poder estar en reunions de treball sense patir per si aguantarà la càrrega de bateria o no. També em va enamorar el fet que siga completament silenciós i no es calfe. Altres detalls com la pantalla tàctil i que es plegue completament les aprofiten millor els meus fills…&lt;/p&gt;
+
+&lt;p&gt;Com que sóc usuari de GNU/Linux des de fa anys trobava a faltar de vegades programari i funcions necessaris per a desenvolupar les tasques diàries que realitze. Ho vaig resoldre instal·lant &lt;a href=&quot;http://www.muycomputer.com/2014/12/29/ubuntu-debian-chromebook-crouton/&quot;&gt;Crouton&lt;/a&gt;, amb una combinació de tecles senzilla tenia al meu abast Xubuntu 14.04… però el sistema ja no anava tan fluid i això feia que només utilitzara aquesta solució en cas d’emergència.&lt;/p&gt;
+
+&lt;p&gt;Vaig tornar a cercar alternatives i afortunadament vaig aconseguir una distribució lliure compatible amb aquest maquinari &lt;a href=&quot;https://galliumos.org/&quot;&gt;GalliumOS&lt;/a&gt;. La primera vegada que la vaig instal·lar va ser decepcionant, ja que no funcionava el touchpad. Vaig insistir i vaig provar sort amb la versió beta i… va funcionar… tot menys el so (amb uns auriculars Bluetooth puc sentir qualsevol àudio). Això ja ho sabia perquè en la pàgina de &lt;a href=&quot;https://wiki.galliumos.org/Hardware_Compatibility&quot;&gt;hardware compatible&lt;/a&gt; ja ho anunciava.&lt;/p&gt;
+
+&lt;p&gt;De l’alegria que em va donar vaig fer una &lt;a href=&quot;https://galliumos.org/donate&quot;&gt;donació&lt;/a&gt; (pràctica molt recomanable) al projecte GalliumOs per tal d’agrair que projectes com aquest continuen endavant. La sorpresa va ser que al parell de setmanes vaig rebre a casa una carta de Boston agraint la meua donació i regalant-me un parell d’adhesius que vaig aprofitar per a tapar el logo de fàbrica del Chromebook xDD&lt;/p&gt;
+
+&lt;p&gt;Màxima satisfacció per vorer de prop com funciona la comunitat de programari lliure, amb aquest simple detall m’han guanyat per complet…&lt;/p&gt;
+
+&lt;p&gt;Avantatges que he trobat a l’utilitzar GalliumOS que és Xubuntu adaptat per aquest maquinari. Per descomptat tot el que ja tenia amb ChromeOS, ja que incloïa &lt;a href=&quot;https://es.wikipedia.org/wiki/Chromium_%28navegador%29&quot;&gt;Chromium&lt;/a&gt; per defecte i totes les funcionalitats d’un sistema operatiu complet amb els milers de programes que tinc a la meua disposició en cas de necessitat. La fluïdesa del sistema encara és millor i la duració de la bateria encara és molt llarga.&lt;/p&gt;
+
+&lt;p&gt;Un altre avantatja és que el hardware no incloïa port ethernet i de vegades necessite aquesta funcionalitat. Amb Ubuntu sí que em detecta un adaptador USB ethernet per poder-lo utilitzar quan ho necessite, una utilitat que amb ChromeOS no podia utilitzar i de vegades ho necessite.&lt;/p&gt;
+
+&lt;p&gt;I per últim i no menys important m’encanta quan la meua filla em demana el dispositiu per a fer dibuixos amb el &lt;a href=&quot;http://tuxpaint.org/?lang=es_ES&quot;&gt;TuxPaint&lt;/a&gt; amb els seus dits aprofitant molt més que jo la seua pantalla tàctil, una meravella, aquesta imatge és un d’elles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/01tuxpaint.png&quot; alt=&quot;tuxpaint&quot; title=&quot;tuxpaint&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tot això em fa pensar… seria possible una adaptació de Lliurex amb maquinari d’aquestes característiques en un armari mòbil preparat per a qualsevol aula en tot moment?…&lt;/p&gt;
+</description>
+            <pubDate>Mon, 10 Apr 2017 14:12:12 +0200</pubDate>
+            <link>https://sasogu.github.io/#/2017/04/10/chromebook.html</link>
+            <guid isPermaLink="true">https://sasogu.github.io/#/2017/04/10/chromebook.html</guid>
+            
+            
+        </item>
+        
+    </channel>
+=======
+  <channel>
+    <title>Aprenent dia a dia</title>
+    <description>Cada dia és un bon dia.
+</description>
+    <link>https://sasogu.github.io//</link>
+    <atom:link href="https://sasogu.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 15 Apr 2017 08:52:04 +0200</pubDate>
+    <lastBuildDate>Sat, 15 Apr 2017 08:52:04 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 15 Apr 2017 07:13:16 +0200</pubDate>
+        <link>https://sasogu.github.io//jekyll/update/2017/04/15/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://sasogu.github.io//jekyll/update/2017/04/15/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+>>>>>>> 4d403c1f718df3190233fc0f236e6264686fc5fd
+</rss>

@@ -8,7 +8,7 @@ Fa uns mesos que sóc el feliç propietari d’un [Acer Chromebook R 11](https:/
 
 En les últimes versions a més es poden instal·lar aplicacions d’Android, gran jugada de Google sens dubte per donar valor als Chromebooks. Com que ja tinc dispositius que executen aplicacions Android no necessite aquesta funcionalitat.
 
-Personalment el que més m’agrada és el hardware, necessitava una màquina lleugera i barata per tal de portar-la sempre a la motxilla. Chromebook sobre el paper complia aquestes premisses, vaig aconseguir una molt bona oferta a meitat de preu i no m’ho vaig pensar. Des del principi em va sorprendre la fluïdesa amb la qual funcionava tot, arrancant molt ràpidament i sobretot l’autonomia que em permetia poder estar en reunions de treball sense patir per si aguantarà la càrrega de bateria o no. També em va enamorar el fet que siga completament silenciós i no es calfe. Altres detalls com la pantalla tàctil i que es plegue completament les aprofiten millor els meus fills…
+Personalment el que més m’agrada és el hardware, necessitava una màquina lleugera i barata per tal de portar-la sempre a la motxilla. Chromebook sobre el paper complia aquestes premisses, vaig aconseguir una molt bona oferta a meitat de preu i no m’ho vaig pensar. Des del principi em va sorprendre la fluïdesa amb la qual funcionava tot, arrancant molt ràpidament i sobretot l’autonomia que em permetia poder estar en reunions de treball sense patir per si aguantarà la càrrega de bateria o no. També em va enamorar el fet que siga completament silenciós i no es calfe. Altres detalls com la pantalla tàctil i que es plegue completament les aprofiten millor els meus fills.
 
 Com que sóc usuari de GNU/Linux des de fa anys trobava a faltar de vegades programari i funcions necessaris per a desenvolupar les tasques diàries que realitze. Ho vaig resoldre instal·lant [Crouton](http://www.muycomputer.com/2014/12/29/ubuntu-debian-chromebook-crouton/), amb una combinació de tecles senzilla tenia al meu abast Xubuntu 14.04… però el sistema ja no anava tan fluid i això feia que només utilitzara aquesta solució en cas d’emergència.
 
@@ -26,4 +26,4 @@ I per últim i no menys important m’encanta quan la meua filla em demana el di
 
 ![tuxpaint](/img/01tuxpaint.png "tuxpaint")
 
-Tot això em fa pensar... seria possible una adaptació de Lliurex amb maquinari d'aquestes característiques en un armari mòbil preparat per a qualsevol aula en tot moment?...
+Tot això em fa pensar, seria possible una adaptació de Lliurex amb maquinari d'aquestes característiques en un armari mòbil preparat per a qualsevol aula en tot moment?

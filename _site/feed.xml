@@ -7,12 +7,33 @@
         <link>https://sasogu.github.io//</link>
         <atom:link href="https://sasogu.github.io//feed.xml" rel="self"
         type="application/rss+xml"/>
-        <pubDate>Sun, 16 Apr 2017 01:57:45 +0200</pubDate>
-        <lastBuildDate>Sun, 16 Apr 2017 01:57:45 +0200</lastBuildDate>
+        <pubDate>Sun, 16 Apr 2017 09:35:57 +0200</pubDate>
+        <lastBuildDate>Sun, 16 Apr 2017 09:35:57 +0200</lastBuildDate>
         <generator>Jekyll v3.0.1</generator>
         
         <item>
-            <title>Experiències amb un #Chromebook i #GalliumOS</title>
+            <title>Tablets, Chromebooks i portàtils a les aules, perquè i per a què?</title>
+            <description>&lt;p&gt;De tant en tant, quan parle amb companys sobre la introducció de dispositius electrònics a l’aula, ni hi ha alguns que defensen la seua utilització en classe però no tenen clar com el faran servir després… Sembla que en els últims temps siga obligatori innovar i que innovar és igual a ficar maquinari de qualsevol tipus en les aules. Fa no tant, un virus col·lectiu ens va fer posar milers de pissarres digitals, la majoria de les quals actualment es fan servir només com a projectors. Això no és que estiga mal del tot, un projector a l’aula amb connexió a Internet sempre m’ha paregut una eina molt important a l’abast del professorat. Però una pissarra digital és prou més cara que un projector, ens ho podrien haver estalviat.&lt;/p&gt;
+
+&lt;p&gt;Ara arriba la “moda” de les tablets, tot el món vol tindre al seu centre i darrere venen els Chromebooks, si no aprenem d’experiències passades, tornarem a caure en els mateixos errors. Opine que el més important abans de ficar-nos en fer grans inversions és clarificar per a què utilitzarem aquest maquinari. Ens servirà per a substituir el llibre de text? Si el substituïm, serà per la plataforma digital que ofereixen les mateixes editorials? Per materials d’elaboració pròpia? O tal vegada ens servirà com a eina de suport dels materials que ja utilitzem a l’aula? Llavors farem servir activitats en línia? App’s? Programari que només funciona en un determinat sistema operatiu?&lt;/p&gt;
+
+&lt;p&gt;Clarificar al màxim aquestes qüestions ens serà útil per prendre decisions sobre si necessitem a la nostra aula, tablets, Chromebooks o portàtils i com no, quin sistema operatiu executaran (Windows, LLiurex, Android, iOS…). Triar una plataforma o altra té implicacions importants, tant econòmiques, com pedagògiques i ètiques.&lt;/p&gt;
+
+&lt;p&gt;Aclarir la finalitat també ens ajudarà a triar un model d’implantació. Els dos que conec són, o bé que les famílies compren els dispositius o que siga el centre el que faça la despesa econòmica adquirint material que siga d’ús compartit, normalment utilitzant carros on guardar les tablets o portàtils. Cada opció té els seus pros i contres.&lt;/p&gt;
+
+&lt;p&gt;Després hem de planificar altres aspectes importants, una bona infraestructura de comunicacions: WIFI professional que permeta molts dispositius interactuar al mateix temps i connexió ràpida a Internet. Sense oblidar la formació de mestres i alumnes, ja que moltes vegades pensem que bé de sèrie. La implicació de l’equip directiu és fonamental. Informar a les famílies de com serà el procés d’implantació i com afectarà els estudis dels seus fills. Molts detalls que cal tindre presents per a planificar una experiència la més satisfactòria possible.&lt;/p&gt;
+
+&lt;p&gt;Per finalitzar us deixe un vídeo que he visualitzat mestres escrivia aquest post, Google aposta fort per l’educació i haurem de començar a prendre decisions malgrat que sembla que les multinacionals ja les estan prenent per nosaltres… haurem d’espavilar ;)&lt;/p&gt;
+</description>
+            <pubDate>Sat, 15 Apr 2017 11:12:12 +0200</pubDate>
+            <link>https://sasogu.github.io/#/2017/04/15/tablets.html</link>
+            <guid isPermaLink="true">https://sasogu.github.io/#/2017/04/15/tablets.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Experiències amb un Chromebook i GalliumOS</title>
             <description>&lt;p&gt;Fa uns mesos que sóc el feliç propietari d’un &lt;a href=&quot;https://www.acer.com/ac/es/ES/content/professional-series/acerchromebookr11c738t&quot;&gt;Acer Chromebook R 11&lt;/a&gt;, pels que no conegueu aquest tipus de maquinari, bàsicament es tracta d’un portàtil que executa Linux i el navegador Chrome, però només aquest és «visible». Quan executes el sistema disposes  del navegador i un explorador d’arxius (el local i el del núvol).&lt;/p&gt;
 
 &lt;p&gt;En les últimes versions a més es poden instal·lar aplicacions d’Android, gran jugada de Google sens dubte per donar valor als Chromebooks. Com que ja tinc dispositius que executen aplicacions Android no necessite aquesta funcionalitat.&lt;/p&gt;
@@ -40,6 +61,118 @@
             <pubDate>Mon, 10 Apr 2017 14:12:12 +0200</pubDate>
             <link>https://sasogu.github.io/#/2017/04/10/chromebook.html</link>
             <guid isPermaLink="true">https://sasogu.github.io/#/2017/04/10/chromebook.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Idees per a un portal educatiu</title>
+            <description>&lt;p&gt;Aquestes són unes reflexions al voltant del que podria contenir un portal educatiu que fóra atractiu, funcional i útil per a una comunitat educativa. És un llistat provisional que vaig adaptant segons se’m van ocorrent idees, si voleu acompanyar-me, podeu comentar aquest post.&lt;/p&gt;
+
+&lt;h1 id=&quot;en-general&quot;&gt;En general:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ha de ser visualment modern i responsive desing.&lt;/li&gt;
+  &lt;li&gt;Els continguts han d’actualitzar-se amb regularitat i fer neteges periòdiques per
+ eliminar el que ja no estiga vigent.&lt;/li&gt;
+  &lt;li&gt;Usuari i contrasenya única per accedir a tots els servicis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;per-als-centres&quot;&gt;Per als centres:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web de centres amb WordPress Multisite.&lt;/li&gt;
+  &lt;li&gt;Arxius. Nextcloud + LibreOffice&lt;/li&gt;
+  &lt;li&gt;PMB centralitzat on les biblioteques de tots els centres puguen consultar el catàleg de llibres de qualsevol col·legi públic… També es podria habilitar un fòrum on els centres compartisquen experiències de com dinamitzen les biblioteques amb els seus alumnes, dubtes amb el programari, la catalogació i d’altres qüestions relacionades.&lt;/li&gt;
+  &lt;li&gt;Comunitats. Ídem que les webs de centres. Amb renovació de continguts periòdica…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;per-a-professorat&quot;&gt;Per a professorat:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aula virtual Moodle&lt;/li&gt;
+  &lt;li&gt;Una xarxa social pròpia. BuddyPress es pot integrar amb WordPress Multisite, incorpora fòrums i permet crear agrupacions (que podrien servir per als grups). On es puga compartir i debatre.&lt;/li&gt;
+  &lt;li&gt;Grups. Que els mestres puguen reunir-se virtualment per grups d’interessos. Que siga molt senzill crear/sol·licitar. Preferiblement oberts per a compartir coneixement.&lt;/li&gt;
+  &lt;li&gt;El repositori de material deu ser molt operatiu i senzill, la interfície que fora tipus Pinterest, Symbaloo… moderna i funcional. A més que els mestres es puguen subscriure per a rebre novetats dels apartats que els interesse. Pàgines de referència https://github.com/ , http://agrega.educacion.es  i  https://procomun.educalab.es/&lt;/li&gt;
+  &lt;li&gt;Una idea que em sembla interessant seria crear un marketplace de recursos, on els mestres puguen afegir al seu compte recursos compartits per altres mestres i crear itineraris d’aprenentatge propis. Com incentivar perquè els mestres compartisquen les seues creacions…?, tal volta un sistema de punts, de premis, de…&lt;/li&gt;
+  &lt;li&gt;El blog del professorat amb WordPress però amb possibilitat d’importar entrades de l’actual per  mantenir el treball realitzat fins ara.&lt;/li&gt;
+  &lt;li&gt;Respecte al correu dels mestres, el portal hauria de incorporar una eina funcional i atractiva. Propose Rainloop que a més es pot integrar amb owncloud o nextcloud, és senzilla i atractiva, si la integrem en el portal, podria ajudar a fer que els mestres començaren a utilitzar el correu corporatiu.&lt;/li&gt;
+  &lt;li&gt;Fòrums. Es podrien posar els de totes les Comunitats al mateix lloc diferenciat per seccions, amb espais per a diferents perfils, per exemple un subfòrum per a Secretaris, altre per a les diferents figures de Coordinadors que n’hi ha als centres…, etc.  Una espècie d’àgora on tots els docents puguem compartir dubtes i idees. Amb possibilitat de subscripció per rebre els missatges en el correu com en els de Moodle.&lt;/li&gt;
+  &lt;li&gt;Suggeriment. Donar accés amb registre a qualsevol persona interessada a determinades seccions. Estic pensant en centres concertats que vulguen implantar Lliurex i/o d’altres comunitats i països…
+Documentació. Una wiki com la de lliurex estaria molt bé per arreplegar documentació actualitzada i ordenada, on els usuaris puguen fer aportacions. Tindre tots els manuals/documents en wiki’s facilitaria el manteniment, evitant materials obsolets.&lt;/li&gt;
+  &lt;li&gt;Un sistema d’ajuda com el que fa servir Google, per exemple.&lt;/li&gt;
+  &lt;li&gt;Arxius. Nextcloud + LibreOffice. Nextcloud ofereix també altres ferramentes en línia molt interessant com són un calendari col·laboratiu, organitzador de tasques… i més;)&lt;/li&gt;
+  &lt;li&gt;Vídeo, facilitar als mestres organitzar flippedclassroom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;per-als-alumnes&quot;&gt;Per als alumnes:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Blogs d’aula i personals&lt;/li&gt;
+  &lt;li&gt;Xarxa social privada i supervisada…&lt;/li&gt;
+  &lt;li&gt;Per al correu pense que el ideal és que fóra intern perquè no es pogueren registrar en servicis externs, però sí que poguera servir per a comunicació interna amb els mestres i altres alumnes.&lt;/li&gt;
+  &lt;li&gt;Zona de recursos seleccionats per edats per a utilitzar en línia.&lt;/li&gt;
+  &lt;li&gt;Canal de vídeo educatiu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;per-a-les-famlies&quot;&gt;Per a les famílies:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web Família 2.0&lt;/li&gt;
+  &lt;li&gt;Un espai on puguen informar-se de novetats, subscripció llista de correu, RSS, xarxes socials i Telegram&lt;/li&gt;
+  &lt;li&gt;Fer suggeriments i preguntar dubtes de Lliurex, Web Família…, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Molt important, tot això acompanyat d’una bona campanya de formació i difusió…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Newsletter i RSS és fonamental facilitar l’accés a les notícies que generem.&lt;/li&gt;
+  &lt;li&gt;Presencia en xarxes socials (Twitter i Telegram).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <pubDate>Fri, 10 Feb 2017 13:12:12 +0100</pubDate>
+            <link>https://sasogu.github.io/#/2017/02/10/portal.html</link>
+            <guid isPermaLink="true">https://sasogu.github.io/#/2017/02/10/portal.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Sobre la Coordinació TIC</title>
+            <description>&lt;p&gt;Ja està disponible en obert el “Curso inicial Coordinación TIC 2016-2017“. En el seu moment (novembre 2016) va suposar tot un repte tutoritzar un curs en què estaven convocats tots els Coordinadors Tic de la Comunitat Valenciana. Els fòrums tiraven fum… les idees, queixes, agraïments i propostes de tot tipus van ser moltíssimes i al meu cap també bullien les idees, escriure-les va ajudar a donar-li eixida, en eixe moment no vaig publicar per considerar-lo incomplet. En quant em descuide sóc prou exigent amb mi mateixa… així que ara aprofitant la publicació dels continguts en obert aprofite per a publicar aquesta visió sobre la Coordinació TIC inconclusa que va sorgir en eixe moment tan intens 😉
+Llevo prácticamente un mes disfrutando del curso inicial para Coordinadores TIC 2016-2017. Está siendo una experiencia muy enriquecedora compartir reflexiones sobre las TICs con tantos compañeros, personalmente me ha suscitado muchas y variadas cavilaciones que he intentado plasmar en este post. Se queda corto pero necesitaba pasar a limpio algunos de los muchos pensamientos que bullen sin parar en mi cabeza.&lt;/p&gt;
+
+&lt;p&gt;Es un hecho que la figura de coordinador TIC no ha conseguido pasar de desempeñar la función de técnico de guardia. Hay que reconocer que es muy difícil que una sola persona reúna todo lo que se le pide. Lo ideal es que esa figura sea un poco de todo (¿a qué otro coordinador se le pide tanto?) que sea un técnico informático, con capacidad de liderazgo, capaz de motivar a los compañeros, dinamizador, empático y un largo etcétera de cualidades que raramente encontraremos reunidas en la proporción adecuada en un sólo ser humano. Una de las posibles soluciones podría ser conformar un equipo que reúna esos aspectos. Tal vez en el formato de una comisión bajo la dirección del coordinador TIC cuyo objetivo fundamental sería llevar a buen puerto una planificación que atienda a las necesidades específicas del centro.&lt;/p&gt;
+
+&lt;p&gt;Contar con un equipo que elabore un plan a corto, medio y largo plazo sería ideal. La fuerza de crear una planificación en pequeño grupo ayudaría a implicar de entrada a los miembros que lo conforman y este empuje podría ser el germen que consiga movilizar a todo el claustro. Siempre partiendo de las directrices y del apoyo comprometido del equipo directivo. Pero dado que cada centro tiene su propia idiosincrasia incluso la creación de esta comisión la supeditaría a un plan previo en el que las líneas básicas estén muy claras.  Es ahí donde la figura del coordinador TIC es fundamental, su misión sería concebir un borrador que involucre a toda la comunidad educativa, que parta de sus necesidades reales y que sea de aplicación inmediata en la labor docente diaria.&lt;/p&gt;
+
+&lt;p&gt;No creo en que un plan completo y cerrado deba partir del equipo directivo, sí unas líneas de actuación generales y muy motivadoras, pero empezar la casa por el tejado, de arriba hacia abajo no suele ser precisamente un aliciente para el profesorado. Un equipo dinamizador de las TICs, con unos objetivos claros, permitiría llegar a todos los rincones del centro. Esto no es incompatible con que el coordinador TIC ejerza un liderazgo que encauce adecuadamente las metas fijadas. Para ello precisa una formación acorde a sus responsabilidades que incluya no sólo contenidos informáticos sino también de relaciones interpersonales, liderazgo, organización y en definitiva todas las herramientas que le permitan desempeñar su función como un reto aportándole satisfacción en su que hacer diario.&lt;/p&gt;
+
+&lt;p&gt;Reclamar que la Administración, los CEFIRES y el SAI cumplan su función adecuadamente o que los compañeros se formen y capaciten en el uso básico de las TICs es muy importante y necesario. Pero también tenemos que poner en marcha las mejoras que están en nuestras manos y que no dependen de otras instancias ya que tenemos un amplio margen de autonomía que nos puede permitir desarrollar los planes que nos propongamos. Tengo la suerte de ser testigo de cómo con el apoyo del Claustro y del Equipo directivo se pueden hacer muchas y gratificantes acciones en el ámbito de las TIC.&lt;/p&gt;
+
+&lt;p&gt;Finalmente considero que hay que tener cuidado con las generalizaciones ya que no hay un modelo único que sirva y se pueda aplicar a toda la casuística de todos los centros educativos, no hay una receta mágica, pero si no construimos un proyecto educativo compartido por toda la comunidad escolar, no iremos muy lejos. En resumen, tiempo, planificación y recursos…
+El tema es amplio y complejo pero al menos ya he conseguido dar forma a algunas ideas que me venían rondando últimamente.&lt;/p&gt;
+</description>
+            <pubDate>Tue, 10 Jan 2017 13:12:12 +0100</pubDate>
+            <link>https://sasogu.github.io/#/2017/01/10/ctic.html</link>
+            <guid isPermaLink="true">https://sasogu.github.io/#/2017/01/10/ctic.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Sobre el material informàtic als centres educatius</title>
+            <description>&lt;p&gt;L’última aventura en la qual estic embarcat (juntament amb cinc companys més) és tutoritzar un curs a l’espai de formació en xarxa del Servici de Formació del Professorat de la Comunitat Valenciana per a més de 1700 Coordinadors TIC’s. Com podeu imaginar la quantitat d’intervencions als fòrums és molt alta, he pensat copiar ací algunes de les reflexions que comparteix amb els companys perquè no es perden entre tants missatges… Us deixe la que termine de fer ara mateix respecte a com gestionar el hardware en els centres educatius:&lt;/p&gt;
+
+&lt;p&gt;Et conte el que fem nosaltres per si pots agafar idees, tenim un “plan renove” anual, tenim establert en el pressupost una assignació d’uns mil euros per curs  per comprar maquinari nou. Com que utilitzem lliurex des de fa anys el maquinari és molt més barat i ens dóna per adquirir unes cinc màquines per any. A voltes amb la sort de trobar bones ofertes i poder comprar inclús més. Quan arriba la dotació de Conselleria ja és una festa… l’any passat van aprofitar per a muntar una segona aula d’informàtica al centre.
+Els ordinadors nous sempre van on més ús se l’hi dóna. I els vells van a passant a llocs menys importants, amb menys ús. Així, normalment l’aula d’informàtica i les pissarres digitals tenen el maquinari més actualitzat i els racons d’aula dels alumnes els més antics…&lt;/p&gt;
+
+&lt;p&gt;Com que som un centre de primària els alumnes en els seus racons no necessiten molts requisits de maquinari i amb clients semi lleugers de Lliurex funcionen autònomament molt bé. A més com pengen del servidor directament el manteniment d’aquestes màquines és molt senzill, quan es trenca una la canvien per una altra ràpidament.
+Bàsicament eixa és la manera de funcionar que tenim. Aprofitem el material obsolet i al mateix temps anem renovant-lo contínuament.&lt;/p&gt;
+</description>
+            <pubDate>Thu, 10 Nov 2016 13:12:12 +0100</pubDate>
+            <link>https://sasogu.github.io/#/2016/11/10/material.html</link>
+            <guid isPermaLink="true">https://sasogu.github.io/#/2016/11/10/material.html</guid>
             
             
         </item>

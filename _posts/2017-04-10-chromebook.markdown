@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Experiències amb un #Chromebook i #GalliumOS"
+title: "Experiències amb un Chromebook i GalliumOS"
 date:   2017-04-10 12:12:12
 description: Bon hardware a bon preu
 ---

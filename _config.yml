@@ -19,18 +19,7 @@ paginate: 100
 paginate_path: "/blog/page:num"
 
 
-collections:
-  portfolio:
-   output: true
-  permalink: /portfolio/:path/
 
-  poetry:
-  output: true
-  permalink: /poetry/:path/
-
-  productivity:
-  output: true
-  permalink: /productivity/:path/
 
 # Gems
 gems: [jekyll-paginate]

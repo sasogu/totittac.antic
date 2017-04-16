@@ -7,17 +7,75 @@
         <link>https://sasogu.github.io//</link>
         <atom:link href="https://sasogu.github.io//feed.xml" rel="self"
         type="application/rss+xml"/>
-        <pubDate>Sun, 16 Apr 2017 09:53:40 +0200</pubDate>
-        <lastBuildDate>Sun, 16 Apr 2017 09:53:40 +0200</lastBuildDate>
+        <pubDate>Sun, 16 Apr 2017 21:16:29 +0200</pubDate>
+        <lastBuildDate>Sun, 16 Apr 2017 21:16:29 +0200</lastBuildDate>
         <generator>Jekyll v3.0.1</generator>
         
         <item>
+            <title>Canvia l&#39;ordre d&#39;arrancada en Lliurex</title>
+            <description>&lt;p&gt;Si volem canviar l’ordre d’arranc del nostre ordinador amb GNU/Linux el primer que hem de fer és anar a  Aplicacions/Accessoris/Terminal i teclejar:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo nano /boot/grub/grub.cfg
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;o&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo gedit /boot/grub/grub.cfg
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;La primera opció ens obrirà a la mateixa terminal un editor de text senzill, la segona un editor visual més senzill encara.&lt;/p&gt;
+
+&lt;p&gt;Coses que podem fer són canviar el temps d’espera per a seleccionar un SO. Movent-nos amb el cursor del teclat busquem la línia que diga:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if [ ${recordfail} = 1 ]; then
+set timeout=-1
+else
+set timeout=10
+fi
+### END /etc/grub.d/00_header ###
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On diu  &lt;strong&gt;set timeout = 10&lt;/strong&gt;  podeu canviar aquest número per la quantitat de segons que desitgem que ens done per triar un SO.&lt;/p&gt;
+
+&lt;p&gt;Per finalitzar només pressionem en Nano: Control + O (per guardar), Enter, Control + X (per eixir de l’editor).&lt;/p&gt;
+
+&lt;p&gt;Si el que volem és canviar el SO. per defecte movent-nos amb el cursor del teclat busquem la línia que diga set default=”0”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;### BEGIN /etc/grub.d/00_header ###
+if [ -s /boot/grub/grubenv ]; then
+have_grubenv=true
+load_env
+fi
+set default=&quot;0&quot;
+### BEGIN /etc/grub.d/00_header ###if [ -s /boot/grub/grubenv ]; then  have_grubenv=true  load_envfiset default=&quot;0&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On diu &lt;strong&gt;set default = “0”&lt;/strong&gt; canviem el  0  pel nombre de línia en la qual es troba el SO que desitgem siga el predeterminat, això ho podem saber comptant les línies que apareixen en el grub quan vam iniciar l’equip ( començant des de 0, 1, 2, … i comptant la línia que diu &lt;em&gt;Other OS&lt;/em&gt;). Un cop sapiguem el nombre en la qual aquesta la línia, només vam canviar el  0  per aquest número i llest.&lt;/p&gt;
+
+&lt;p&gt;En el cas que no desitgem reiniciar per veure i explicar les línies de grub hem de buscar i comptar cada línia que diga  menuentry  (novament comptant des de 0 (zero)) i fer el mateix esmentat anteriorment.&lt;/p&gt;
+
+&lt;p&gt;Per finalitzar només pressionem  Control + O, Enter, Control + X  (en aquest ordre).&lt;/p&gt;
+
+&lt;p&gt;Espere que això  vos siga d’utilitat a l’hora de modificar el vostre grub2, qualsevol dubte no dubteu a consultar.&lt;/p&gt;
+</description>
+            <pubDate>Sun, 16 Apr 2017 11:12:12 +0200</pubDate>
+            <link>https://sasogu.github.io/#/2017/04/16/grub.html</link>
+            <guid isPermaLink="true">https://sasogu.github.io/#/2017/04/16/grub.html</guid>
+            
+            
+        </item>
+        
+        <item>
             <title>Tablets, Chromebooks i portàtils a les aules, perquè i per a què?</title>
-            <description>&lt;p&gt;De tant en tant, quan parle amb companys sobre la introducció de dispositius electrònics a l’aula, ni hi ha alguns que defensen la seua utilització en classe però no tenen clar com el faran servir després… Sembla que en els últims temps siga obligatori innovar i que innovar és igual a ficar maquinari de qualsevol tipus en les aules. Fa no tant, un virus col·lectiu ens va fer posar milers de pissarres digitals, la majoria de les quals actualment es fan servir només com a projectors. Això no és que estiga mal del tot, un projector a l’aula amb connexió a Internet sempre m’ha paregut una eina molt important a l’abast del professorat. Però una pissarra digital és prou més cara que un projector, ens ho podrien haver estalviat.&lt;/p&gt;
+            <description>&lt;p&gt;De tant en tant, quan parle amb companys sobre la introducció de dispositius electrònics a l’aula, ni hi ha alguns que defensen la seua utilització en classe però no tenen clar com el faran servir després. Sembla que en els últims temps siga obligatori innovar i que innovar és igual a ficar maquinari de qualsevol tipus en les aules. Fa no tant, un virus col·lectiu ens va fer posar milers de pissarres digitals, la majoria de les quals actualment es fan servir només com a projectors. Això no és que estiga mal del tot, un projector a l’aula amb connexió a Internet sempre m’ha paregut una eina molt important a l’abast del professorat. Però una pissarra digital és prou més cara que un projector, ens ho podrien haver estalviat.&lt;/p&gt;
 
 &lt;p&gt;Ara arriba la “moda” de les tablets, tot el món vol tindre al seu centre i darrere venen els Chromebooks, si no aprenem d’experiències passades, tornarem a caure en els mateixos errors. Opine que el més important abans de ficar-nos en fer grans inversions és clarificar per a què utilitzarem aquest maquinari. Ens servirà per a substituir el llibre de text? Si el substituïm, serà per la plataforma digital que ofereixen les mateixes editorials? Per materials d’elaboració pròpia? O tal vegada ens servirà com a eina de suport dels materials que ja utilitzem a l’aula? Llavors farem servir activitats en línia? App’s? Programari que només funciona en un determinat sistema operatiu?&lt;/p&gt;
 
-&lt;p&gt;Clarificar al màxim aquestes qüestions ens serà útil per prendre decisions sobre si necessitem a la nostra aula, tablets, Chromebooks o portàtils i com no, quin sistema operatiu executaran (Windows, LLiurex, Android, iOS…). Triar una plataforma o altra té implicacions importants, tant econòmiques, com pedagògiques i ètiques.&lt;/p&gt;
+&lt;p&gt;Clarificar al màxim aquestes qüestions ens serà útil per prendre decisions sobre si necessitem a la nostra aula, tablets, Chromebooks o portàtils i com no, quin sistema operatiu executaran (Windows, LLiurex, Android o iOS). Triar una plataforma o altra té implicacions importants, tant econòmiques, com pedagògiques i ètiques.&lt;/p&gt;
 
 &lt;p&gt;Aclarir la finalitat també ens ajudarà a triar un model d’implantació. Els dos que conec són, o bé que les famílies compren els dispositius o que siga el centre el que faça la despesa econòmica adquirint material que siga d’ús compartit, normalment utilitzant carros on guardar les tablets o portàtils. Cada opció té els seus pros i contres.&lt;/p&gt;
 
@@ -40,7 +98,7 @@
 
 &lt;p&gt;En les últimes versions a més es poden instal·lar aplicacions d’Android, gran jugada de Google sens dubte per donar valor als Chromebooks. Com que ja tinc dispositius que executen aplicacions Android no necessite aquesta funcionalitat.&lt;/p&gt;
 
-&lt;p&gt;Personalment el que més m’agrada és el hardware, necessitava una màquina lleugera i barata per tal de portar-la sempre a la motxilla. Chromebook sobre el paper complia aquestes premisses, vaig aconseguir una molt bona oferta a meitat de preu i no m’ho vaig pensar. Des del principi em va sorprendre la fluïdesa amb la qual funcionava tot, arrancant molt ràpidament i sobretot l’autonomia que em permetia poder estar en reunions de treball sense patir per si aguantarà la càrrega de bateria o no. També em va enamorar el fet que siga completament silenciós i no es calfe. Altres detalls com la pantalla tàctil i que es plegue completament les aprofiten millor els meus fills…&lt;/p&gt;
+&lt;p&gt;Personalment el que més m’agrada és el hardware, necessitava una màquina lleugera i barata per tal de portar-la sempre a la motxilla. Chromebook sobre el paper complia aquestes premisses, vaig aconseguir una molt bona oferta a meitat de preu i no m’ho vaig pensar. Des del principi em va sorprendre la fluïdesa amb la qual funcionava tot, arrancant molt ràpidament i sobretot l’autonomia que em permetia poder estar en reunions de treball sense patir per si aguantarà la càrrega de bateria o no. També em va enamorar el fet que siga completament silenciós i no es calfe. Altres detalls com la pantalla tàctil i que es plegue completament les aprofiten millor els meus fills.&lt;/p&gt;
 
 &lt;p&gt;Com que sóc usuari de GNU/Linux des de fa anys trobava a faltar de vegades programari i funcions necessaris per a desenvolupar les tasques diàries que realitze. Ho vaig resoldre instal·lant &lt;a href=&quot;http://www.muycomputer.com/2014/12/29/ubuntu-debian-chromebook-crouton/&quot;&gt;Crouton&lt;/a&gt;, amb una combinació de tecles senzilla tenia al meu abast Xubuntu 14.04… però el sistema ja no anava tan fluid i això feia que només utilitzara aquesta solució en cas d’emergència.&lt;/p&gt;
 
@@ -58,7 +116,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/img/01tuxpaint.png&quot; alt=&quot;tuxpaint&quot; title=&quot;tuxpaint&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Tot això em fa pensar… seria possible una adaptació de Lliurex amb maquinari d’aquestes característiques en un armari mòbil preparat per a qualsevol aula en tot moment?…&lt;/p&gt;
+&lt;p&gt;Tot això em fa pensar, seria possible una adaptació de Lliurex amb maquinari d’aquestes característiques en un armari mòbil preparat per a qualsevol aula en tot moment?&lt;/p&gt;
 </description>
             <pubDate>Mon, 10 Apr 2017 14:12:12 +0200</pubDate>
             <link>https://sasogu.github.io/#/2017/04/10/chromebook.html</link>
@@ -141,8 +199,9 @@ Documentació. Una wiki com la de lliurex estaria molt bé per arreplegar docume
         
         <item>
             <title>Sobre la Coordinació TIC</title>
-            <description>&lt;p&gt;Ja està disponible en obert el “Curso inicial Coordinación TIC 2016-2017“. En el seu moment (novembre 2016) va suposar tot un repte tutoritzar un curs en què estaven convocats tots els Coordinadors Tic de la Comunitat Valenciana. Els fòrums tiraven fum… les idees, queixes, agraïments i propostes de tot tipus van ser moltíssimes i al meu cap també bullien les idees, escriure-les va ajudar a donar-li eixida, en eixe moment no vaig publicar per considerar-lo incomplet. En quant em descuide sóc prou exigent amb mi mateixa… així que ara aprofitant la publicació dels continguts en obert aprofite per a publicar aquesta visió sobre la Coordinació TIC inconclusa que va sorgir en eixe moment tan intens 😉
-Llevo prácticamente un mes disfrutando del curso inicial para Coordinadores TIC 2016-2017. Está siendo una experiencia muy enriquecedora compartir reflexiones sobre las TICs con tantos compañeros, personalmente me ha suscitado muchas y variadas cavilaciones que he intentado plasmar en este post. Se queda corto pero necesitaba pasar a limpio algunos de los muchos pensamientos que bullen sin parar en mi cabeza.&lt;/p&gt;
+            <description>&lt;p&gt;Ja està disponible en obert el “Curso inicial Coordinación TIC 2016-2017“. En el seu moment (novembre 2016) va suposar tot un repte tutoritzar un curs en què estaven convocats tots els Coordinadors Tic de la Comunitat Valenciana. Els fòrums tiraven fum… les idees, queixes, agraïments i propostes de tot tipus van ser moltíssimes i al meu cap també bullien les idees, escriure-les va ajudar a donar-li eixida, en eixe moment no vaig publicar per considerar-lo incomplet. En quant em descuide sóc prou exigent amb mi mateixa, així que ara aprofitant la publicació dels continguts en obert aprofite per a publicar aquesta visió sobre la Coordinació TIC inconclusa que va sorgir en eixe moment tan intens.&lt;/p&gt;
+
+&lt;p&gt;Llevo prácticamente un mes disfrutando del curso inicial para Coordinadores TIC 2016-2017. Está siendo una experiencia muy enriquecedora compartir reflexiones sobre las TICs con tantos compañeros, personalmente me ha suscitado muchas y variadas cavilaciones que he intentado plasmar en este post. Se queda corto pero necesitaba pasar a limpio algunos de los muchos pensamientos que bullen sin parar en mi cabeza.&lt;/p&gt;
 
 &lt;p&gt;Es un hecho que la figura de coordinador TIC no ha conseguido pasar de desempeñar la función de técnico de guardia. Hay que reconocer que es muy difícil que una sola persona reúna todo lo que se le pide. Lo ideal es que esa figura sea un poco de todo (¿a qué otro coordinador se le pide tanto?) que sea un técnico informático, con capacidad de liderazgo, capaz de motivar a los compañeros, dinamizador, empático y un largo etcétera de cualidades que raramente encontraremos reunidas en la proporción adecuada en un sólo ser humano. Una de las posibles soluciones podría ser conformar un equipo que reúna esos aspectos. Tal vez en el formato de una comisión bajo la dirección del coordinador TIC cuyo objetivo fundamental sería llevar a buen puerto una planificación que atienda a las necesidades específicas del centro.&lt;/p&gt;
 
@@ -166,7 +225,7 @@ El tema es amplio y complejo pero al menos ya he conseguido dar forma a algunas 
             <title>Sobre el material informàtic als centres educatius</title>
             <description>&lt;p&gt;L’última aventura en la qual estic embarcat (juntament amb cinc companys més) és tutoritzar un curs a l’espai de formació en xarxa del Servici de Formació del Professorat de la Comunitat Valenciana per a més de 1700 Coordinadors TIC’s. Com podeu imaginar la quantitat d’intervencions als fòrums és molt alta, he pensat copiar ací algunes de les reflexions que comparteix amb els companys perquè no es perden entre tants missatges… Us deixe la que termine de fer ara mateix respecte a com gestionar el hardware en els centres educatius:&lt;/p&gt;
 
-&lt;p&gt;Et conte el que fem nosaltres per si pots agafar idees, tenim un “plan renove” anual, tenim establert en el pressupost una assignació d’uns mil euros per curs  per comprar maquinari nou. Com que utilitzem lliurex des de fa anys el maquinari és molt més barat i ens dóna per adquirir unes cinc màquines per any. A voltes amb la sort de trobar bones ofertes i poder comprar inclús més. Quan arriba la dotació de Conselleria ja és una festa… l’any passat van aprofitar per a muntar una segona aula d’informàtica al centre.
+&lt;p&gt;Et conte el que fem nosaltres per si pots agafar idees, tenim un “plan renove” anual, tenim establert en el pressupost una assignació d’uns mil euros per curs  per comprar maquinari nou. Com que utilitzem Lliurex des de fa anys el maquinari és molt més barat i ens dóna per adquirir unes cinc màquines per any. A voltes amb la sort de trobar bones ofertes i poder comprar inclús més. Quan arriba la dotació de Conselleria ja és una festa… l’any passat van aprofitar per a muntar una segona aula d’informàtica al centre.
 Els ordinadors nous sempre van on més ús se l’hi dóna. I els vells van a passant a llocs menys importants, amb menys ús. Així, normalment l’aula d’informàtica i les pissarres digitals tenen el maquinari més actualitzat i els racons d’aula dels alumnes els més antics…&lt;/p&gt;
 
 &lt;p&gt;Com que som un centre de primària els alumnes en els seus racons no necessiten molts requisits de maquinari i amb clients semi lleugers de Lliurex funcionen autònomament molt bé. A més com pengen del servidor directament el manteniment d’aquestes màquines és molt senzill, quan es trenca una la canvien per una altra ràpidament.

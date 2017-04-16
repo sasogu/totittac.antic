@@ -19,6 +19,17 @@ paginate: 100
 paginate_path: "/blog/page:num"
 
 
+collections:
+    productivity:
+      output: true
+      permalink: /tips/:path/
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
 
 
 # Gems

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Desactivar Plymouth"
-date:   2017-04-17 06:12:12
+title: "Escriure una ISO en un USB"
+date:   2017-04-18 010:17:12
 description:
 coments: true
 category: tips
@@ -9,11 +9,11 @@ tags: [usb]
 ---
 Per a crear unitats USB booteables des de Terminal cal seguir els següents pasos.
 
-Cal saber exactament on s'allotja la nostra clau USB, només cal teclejar com  a Root el comandament fdisk -l
+Primer cal saber exactament on s'allotja la nostra clau USB, només tenim que teclejar el comandament:
 
     $ sudo fdisk -l
 
-Després, n'hi haurà prou en accedir per Terminal com a Root i executar dd:
+Després, n'hi haurà que utilitzar el comandament dd per escriure en el USB:
 
     $ sudo dd if=/home/edutictac/temp/lliurex.iso of=/dev/sdx
 

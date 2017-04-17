@@ -2,7 +2,7 @@
 layout: post
 title: "Tablets, Chromebooks i portàtils a les aules, perquè i per a què?"
 date:   2017-04-15 09:12:12
-description: Reflexions en el fòrum
+description: Aspectes a tindre presents
 coments: true
 ---
 De tant en tant, quan parle amb companys sobre la introducció de dispositius electrònics a l'aula, ni hi ha alguns que defensen la seua utilització en classe però no tenen clar com el faran servir després. Sembla que en els últims temps siga obligatori innovar i que innovar és igual a ficar maquinari de qualsevol tipus en les aules. Fa no tant, un virus col·lectiu ens va fer posar milers de pissarres digitals, la majoria de les quals actualment es fan servir només com a projectors. Això no és que estiga mal del tot, un projector a l'aula amb connexió a Internet sempre m'ha paregut una eina molt important a l'abast del professorat. Però una pissarra digital és prou més cara que un projector, ens ho podrien haver estalviat.

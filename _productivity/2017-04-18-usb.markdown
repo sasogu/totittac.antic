@@ -15,7 +15,7 @@ Primer cal saber exactament on s'allotja la nostra clau USB, només tenim que te
 
 Després, n'hi haurà que utilitzar el comandament dd per escriure en el USB:
 
-    $ sudo dd if=/home/edutictac/temp/lliurex.iso of=/dev/sdx
+    $ sudo dd if=/home/USUARI/NOM_DE_LA_ISO.iso of=/dev/sdx
 
 Analitzem aquesta línea, **if** representa la ubicació on es troba la nostra ISO, **of** la unitat USB on es gravarà (la obtindrem fàcilmen amb fdisk -l). El temps de demora dependrà de la mida de la imatge ISO i de l'estat i propietats de la nostra clau USB.
 

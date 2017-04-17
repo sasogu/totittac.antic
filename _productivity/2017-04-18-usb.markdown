@@ -1,22 +1,21 @@
 ---
 layout: post
-title: "Escriure una ISO en un USB"
+title: "Crear una ISO d'arranc en un USB"
 date:   2017-04-18 010:17:12
 description:
 coments: true
 category: tips
 tags: [usb]
 ---
-Per a crear unitats USB booteables des de Terminal cal seguir els següents pasos.
-
-Primer cal saber exactament on s'allotja la nostra clau USB, només tenim que teclejar el comandament:
+Per a crear unitats USB d'arrancada des de Terminal cal seguir els següents passos.
+Necessitem saber exactament on s'allotja el nostre USB, només hem de teclejar el comandament:
 
     $ sudo fdisk -l
 
-Després, n'hi haurà que utilitzar el comandament dd per escriure en el USB:
+Després, n'caldrà utilitzar el comandament dd per escriure en l'USB:
 
     $ sudo dd if=/home/USUARI/NOM_DE_LA_ISO.iso of=/dev/sdx
 
-Analitzem aquesta línea, **if** representa la ubicació on es troba la nostra ISO, **of** la unitat USB on es gravarà (la obtindrem fàcilmen amb fdisk -l). El temps de demora dependrà de la mida de la imatge ISO i de l'estat i propietats de la nostra clau USB.
+Analitzem aquesta línia, **if** representa la ubicació on es troba la nostra ISO, **of** la unitat USB on es gravarà (l'obtindrem fàcilment amb fdisk -l). El temps de demora dependrà de la mida de la imatge ISO i de l'estat i propietats de la nostra clau USB.
 
-Quan finalitzem, només cal configurar la BIOS de l'equip on bootearem amb la clau USB i ja podrem utilitzar el nostre pendrive com una unitat d'inici.
+Quan finalitzem, només cal configurar la BIOS de l'equip on arrancarem amb l'USB i ja podrem utilitzar el nostre pendrive com una unitat d'inici.

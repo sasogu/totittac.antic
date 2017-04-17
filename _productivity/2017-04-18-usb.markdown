@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Crear una ISO d'arranc en un USB"
+title: "Com crear una ISO d'arranc en un USB"
 date:   2017-04-18 010:17:12
 description:
 coments: true

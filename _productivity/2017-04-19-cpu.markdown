@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Llimitar l'ús de la CPU"
+title: "Limitar l'ús de la CPU"
 date:   2017-04-19 10:19:12
 description:
 coments: true

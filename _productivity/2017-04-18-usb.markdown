@@ -12,7 +12,7 @@ Necessitem saber exactament on s'allotja el nostre USB, només hem de teclejar e
 
     $ sudo fdisk -l
 
-Després, n'caldrà utilitzar el comandament dd per escriure en l'USB:
+Després caldrà utilitzar el comandament dd per escriure en l'USB:
 
     $ sudo dd if=/home/USUARI/NOM_DE_LA_ISO.iso of=/dev/sdx
 

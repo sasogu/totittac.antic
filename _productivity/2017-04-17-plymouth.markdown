@@ -2,9 +2,9 @@
 layout: post
 title: "Desactivar Plymouth"
 date:   2017-04-17 06:12:12
-description: Edita Grub2 manualment
+description: 
 coments: true
-category: tips2
+category: tips
 tags: [plymouth]
 ---
 Una de les primeres coses que faig quan instal·le qualsevol sistema operatiu GNU/Linux és eliminar el Plymouth, és a dir, el logo del sistema que apareix en iniciar i finalitzar l'ordinador. Personalment m'agrada vorer passar les línies per consola que indiquen com es carreguen tots els servicis i aplicacions.

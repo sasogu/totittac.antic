@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Estudios budistas</title>
+    <title>Desactivar Plymouth</title>
     <meta name="description" content="@sasogu
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="/portfolio/02_project/">
+    <link rel="canonical" href="/tips/2017-04-18-usb/">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -63,12 +63,28 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Estudios budistas</h1>
-    <p class="post-meta">April 17, 2017 — 09:42</p>
+    <h1 class="post-title">Desactivar Plymouth</h1>
+    <p class="post-meta">April 17, 2017 — 08:12</p>
   </header>
 
   <article class="post-content">
-    
+    <p>Per a crear unitats USB booteables des de Terminal cal seguir els següents pasos.</p>
+
+<p>Cal saber exactament on s’allotja la nostra clau USB, només cal teclejar com  a Root el comandament fdisk -l</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo fdisk -l
+</code></pre>
+</div>
+
+<p>Després, n’hi haurà prou en accedir per Terminal com a Root i executar dd:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo dd if=/home/edutictac/temp/lliurex.iso of=/dev/sdx
+</code></pre>
+</div>
+
+<p>Analitzem aquesta línea, <strong>if</strong> representa la ubicació on es troba la nostra ISO, <strong>of</strong> la unitat USB on es gravarà (la obtindrem fàcilmen amb fdisk -l). El temps de demora dependrà de la mida de la imatge ISO i de l’estat i propietats de la nostra clau USB.</p>
+
+<p>Quan finalitzem, només cal configurar la BIOS de l’equip on bootearem amb la clau USB i ja podrem utilitzar el nostre pendrive com una unitat d’inici.</p>
 
   </article>
 

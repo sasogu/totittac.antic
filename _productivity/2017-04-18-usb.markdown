@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Desactivar Plymouth"
+date:   2017-04-17 06:12:12
+description:
+coments: true
+category: tips
+tags: [usb]
+---
+Per a crear unitats USB booteables des de Terminal cal seguir els següents pasos.
+
+Cal saber exactament on s'allotja la nostra clau USB, només cal teclejar com  a Root el comandament fdisk -l
+
+    $ sudo fdisk -l
+
+Després, n'hi haurà prou en accedir per Terminal com a Root i executar dd:
+
+    $ sudo dd if=/home/edutictac/temp/lliurex.iso of=/dev/sdx
+
+Analitzem aquesta línea, **if** representa la ubicació on es troba la nostra ISO, **of** la unitat USB on es gravarà (la obtindrem fàcilmen amb fdisk -l). El temps de demora dependrà de la mida de la imatge ISO i de l'estat i propietats de la nostra clau USB.
+
+Quan finalitzem, només cal configurar la BIOS de l'equip on bootearem amb la clau USB i ja podrem utilitzar el nostre pendrive com una unitat d'inici.

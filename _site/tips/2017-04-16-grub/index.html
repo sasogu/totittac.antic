@@ -84,14 +84,12 @@
 
 <p>Coses que podem fer són canviar el temps d’espera per a seleccionar un SO. Movent-nos amb el cursor del teclat busquem la línia que diga:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>if [ ${recordfail} = 1 ]; then
-set timeout=-1
-else
-set timeout=10
-fi
-### END /etc/grub.d/00_header ###
-</code></pre>
-</div>
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="k">if</span> <span class="p">[</span> <span class="err">$</span><span class="p">{</span><span class="n">recordfail</span><span class="p">}</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">];</span> <span class="n">then</span>
+    <span class="nb">set</span> <span class="n">timeout</span><span class="o">=-</span><span class="mi">1</span>
+    <span class="k">else</span>
+    <span class="nb">set</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">10</span>
+    <span class="n">fi</span>
+    <span class="c">### END /etc/grub.d/00_header ###</span></code></pre></figure>
 
 <p>On diu  <strong>set timeout = 10</strong>  podeu canviar aquest número per la quantitat de segons que desitgem que ens done per triar un SO.</p>
 
@@ -99,15 +97,13 @@ fi
 
 <p>Si el que volem és canviar el SO. per defecte movent-nos amb el cursor del teclat busquem la línia que diga set default=”0”:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>### BEGIN /etc/grub.d/00_header ###
-if [ -s /boot/grub/grubenv ]; then
-have_grubenv=true
-load_env
-fi
-set default="0"
-### BEGIN /etc/grub.d/00_header ###if [ -s /boot/grub/grubenv ]; then  have_grubenv=true  load_envfiset default="0"
-</code></pre>
-</div>
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="c">### BEGIN /etc/grub.d/00_header ###</span>
+    <span class="k">if</span> <span class="p">[</span> <span class="o">-</span><span class="n">s</span> <span class="o">/</span><span class="n">boot</span><span class="o">/</span><span class="n">grub</span><span class="o">/</span><span class="n">grubenv</span> <span class="p">];</span> <span class="n">then</span>
+    <span class="n">have_grubenv</span><span class="o">=</span><span class="n">true</span>
+    <span class="n">load_env</span>
+    <span class="n">fi</span>
+    <span class="nb">set</span> <span class="n">default</span><span class="o">=</span><span class="s">"0"</span>
+    <span class="c">### BEGIN /etc/grub.d/00_header ###if [ -s /boot/grub/grubenv ]; then  have_grubenv=true  load_envfiset default="0"</span></code></pre></figure>
 
 <p>On diu <strong>set default = “0”</strong> canviem el  0  pel nombre de línia en la qual es troba el SO que desitgem siga el predeterminat, això ho podem saber comptant les línies que apareixen en el grub quan vam iniciar l’equip ( començant des de 0, 1, 2, … i comptant la línia que diu <em>Other OS</em>). Un cop sapiguem el nombre en la qual aquesta la línia, només vam canviar el  0  per aquest número i llest.</p>
 

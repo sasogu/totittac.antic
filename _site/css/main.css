@@ -319,6 +319,33 @@ ol ol li:last-child {
   .paginationicon a {
     color: #FF3636; }
 
+.page-divider {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #FF3636; }
+  .page-divider .one {
+    position: relative;
+    top: -9px;
+    display: block;
+    background: #FF3636;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; }
+  .page-divider .two {
+    position: relative;
+    top: -26px;
+    display: block;
+    background: #FF3636;
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; }
+
 /**
  * Page content   **********************************************************
  */

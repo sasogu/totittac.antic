@@ -101,6 +101,37 @@ a {
 color: $theme-color;
     }
 }
+
+.page-divider {
+	$divider-color: $theme-color;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid $theme-color;
+  .one {
+    position: relative;
+    top: -9px;
+    display: block;
+    background: $theme-color;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  .two {
+    position: relative;
+    top: -26px;
+    display: block;
+    background: $theme-color;
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+}
 /**
  * Page content   **********************************************************
  */

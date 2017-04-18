@@ -78,15 +78,15 @@ a {
   text-decoration: none;
   /*
   &:visited {
-      color: darken($brand-color, 15%); 
+      color: darken($brand-color, 15%);
   }
   */ }
   a:hover {
-    color: #FF3636;
+    color: #11D68B;
     text-decoration: none; }
 
 article a {
-  color: #FF3636;
+  color: #11D68B;
   font-weight: 100; }
   article a:hover {
     text-decoration: none; }
@@ -250,7 +250,7 @@ ol ol li:last-child {
   margin-bottom: 0; }
   .site-title:hover {
     text-decoration: none;
-    color: #FF3636; }
+    color: #11D68B; }
 
 .site-nav {
   float: right;
@@ -284,7 +284,7 @@ ol ol li:last-child {
   line-height: 3em;
   z-index: 25; }
   .header-bar h1 {
-    color: #FF3636;
+    color: #11D68B;
     font-size: 75px; }
   .header-bar h2 {
     font-size: 25px; }
@@ -317,7 +317,7 @@ ol ol li:last-child {
 .paginationicon {
   font-size: 50px; }
   .paginationicon a {
-    color: #FF3636; }
+    color: #11D68B; }
 
 /**
  * Page content   **********************************************************
@@ -451,7 +451,7 @@ ol ol li:last-child {
  * Portfolio pages **********************************************************
 */
 .blankbox {
-  background: #FF3636; }
+  background: #11D68B; }
 
 .img_row {
   height: 275px;

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Edutictac
-description: Membre fundador
-img: ..//img/1.jpg
+description: Comunitat on compartir dubtes i experiències
+img: ..//img/edutictac.png
 redirec: http://edutictac.es/
 ---
 

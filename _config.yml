@@ -20,13 +20,10 @@ paginate: 10
 paginate_path: "/page:num"
 
 collections:
-  portfolio:
+  links:
     output: true
-    permalink: /portfolio/:path/
-  poetry:
-    output: true
-    permalink: /poetry/:path/
-  productivity:
+    permalink: /links/:path/
+  tips:
     output: true
     permalink: /tips/:path/
 

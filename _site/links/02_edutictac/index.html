@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Desactivar Plymouth</title>
+    <title>Edutictac</title>
     <meta name="description" content="@sasogu
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="/tips/2017-04-17-plymouth/">
+    <link rel="canonical" href="/links/02_edutictac/">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -69,38 +69,18 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Desactivar Plymouth</h1>
-    <p class="post-meta">April 17, 2017 — 08:12</p>
+    <h1 class="post-title">Edutictac</h1>
+    <p class="post-meta">April 21, 2017 — 08:19</p>
   </header>
 
   <article class="post-content">
-    <p>Una de les primeres coses que faig quan instal·le qualsevol sistema operatiu GNU/Linux és eliminar el Plymouth, és a dir, el logo del sistema que apareix en iniciar i finalitzar l’ordinador. Personalment m’agrada vorer passar les línies per consola que indiquen com es carreguen tots els servicis i aplicacions.</p>
+    <p><a href="http://edutictac.es/">Edutictac</a> és una comunitat de docents preocupats per la innovació i per la implementació de les TIC a l’aula.</p>
 
-<p>Per fer-ho sols cal editar el següent fitxer /etc/default/grub</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo nano /etc/default/grub
-</code></pre>
+<div class="img_row">
+	<img class="col three" src="http://edutictac.es/assets/images/edutictac.es_700_300_2_.png" alt="" title="example image" />
 </div>
-
-<p>Dins d’aquest fitxer editem la següent línia</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash"
-</code></pre>
+<div class="col three caption">
 </div>
-
-<p>Sols hem d’esborrar quiet splash, deixant les cometes, així:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>GRUB_CMDLINE_LINUX_DEFAULT=”"
-</code></pre>
-</div>
-
-<p>A continuació hem d’actualitzar el grub amb el següent comandament:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo update-grub
-</code></pre>
-</div>
-
-<p>D’aquesta manera deixem només el log del sistema i podrem vorer si tot carrega correctament a més de quedar més friki ;)</p>
 
   </article>
 

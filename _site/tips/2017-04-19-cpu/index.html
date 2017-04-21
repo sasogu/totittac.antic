@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Escuela de Atención Plena</title>
+    <title>Limitar l'ús de la CPU</title>
     <meta name="description" content="@sasogu
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="/portfolio/03_project/">
+    <link rel="canonical" href="/tips/2017-04-19-cpu/">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -43,9 +43,15 @@
           
         
           
+          <a class="page-link" href="/links/">enllaços</a>
+          
+        
+          
         
           
           <a class="page-link" href="/tips/">tips</a>
+          
+        
           
         
 
@@ -63,12 +69,32 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Escuela de Atención Plena</h1>
-    <p class="post-meta">April 18, 2017 — 20:34</p>
+    <h1 class="post-title">Limitar l'ús de la CPU</h1>
+    <p class="post-meta">April 19, 2017 — 12:19</p>
   </header>
 
   <article class="post-content">
-    
+    <p>Si necessitem saber quins processos estan fent ús del nostre sistema:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+o
+$ ps -eo pid,comm,%cpu | sort -rk 3 | head
+</code></pre>
+</div>
+
+<p>Per limitar el consum de CPU d’un procés concret:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo cpulimit -l 10 -e dropbox
+</code></pre>
+</div>
+
+<p>Aquesta ordre limita l’ús del processador per a dropbox al 10%</p>
+
+<p>Per a instal·lar l’aplicació:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo apt-get install cpulimit
+</code></pre>
+</div>
 
   </article>
 

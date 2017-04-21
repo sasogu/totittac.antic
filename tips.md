@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tips/
-title: 
+title: tips
 description: Receptes útils
 ---
 

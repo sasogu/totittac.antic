@@ -7,7 +7,7 @@ permalink: about/
 <img class="col one right" src="..//img/sasogu.jpg">
 
 
-He sigut mestre de música i primària durant vint anys. Al mateix temps he fet les funcions de Coordinador TIC dels centres pels quals he anat passant. La primera aula d’informàtica que vaig muntar amb màquines en xarxa va ser amb el Windows 3.11 Des que vaig començar a utilitzar ordinadors em van apassionar les seues possibilitats tant en l'àmbit personal com educatiu. Molt prompte també vaig descobrir el Software Lliure i comprendre que en educació era la millor opció per a formar als alumnes. Actualment desenvolupe la llavor de Coordinador TIC de la província d’Alacant des del CEFIRE d’Elx.
+El meu nom és Samuel Soriano Guardiola, més conegut a la xarxa com @sasogu. He sigut mestre de música i primària durant vint anys. Al mateix temps he fet les funcions de Coordinador TIC dels centres pels quals he anat passant. La primera aula d’informàtica que vaig muntar amb màquines en xarxa va ser amb el Windows 3.11 Des que vaig començar a utilitzar ordinadors em van apassionar les seues possibilitats tant en l'àmbit personal com educatiu. Molt prompte també vaig descobrir el Software Lliure i comprendre que en educació era la millor opció per a formar als alumnes. Actualment desenvolupe la llavor de Coordinador TIC de la província d’Alacant des del CEFIRE d’Elx.
 <br><br>
 <br /><br />
 <br />

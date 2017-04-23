@@ -26,9 +26,7 @@ collections:
   tips:
     output: true
     permalink: /tips/:path/
-  buscar
-    output: true
-    permalink: /buscar/:path/
+
 
 
 # Gems

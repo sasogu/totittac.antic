@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
    @sasogu
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sasogu.github.io/" # the base hostname & protocol for your site
-
+#url: http://127.0.0.1:4001/
 twitter_username: sasogu
 github_username:  sasogu
 

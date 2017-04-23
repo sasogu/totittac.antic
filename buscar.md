@@ -11,7 +11,7 @@ sitemap: false
 ---
 
 <!-- Search form -->
-<form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
+<form method="get" action="{{ site.url }}/_plugins/search/" data-search-form class="simple-search">
   <label for="q">Buscar en {{ site.title }}:</label>
   <input type="search" name="q" id="q" placeholder="Què estàs buscant?" data-search-input id="goog-wm-qt" autofocus />
   <input type="submit" value="Buscar" id="goog-wm-sb" />

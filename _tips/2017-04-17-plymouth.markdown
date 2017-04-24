@@ -13,7 +13,7 @@ Per fer-ho sols cal editar el següent fitxer /etc/default/grub
 
     $ sudo nano /etc/default/grub
 
-En lliurex:
+En Lliurex la ruta és diferent:
 
     $ sudo nano /etc/default/grub.d/06-lliurex-cmdline.cfg
 
@@ -25,7 +25,7 @@ Sols hem d'esborrar quiet splash, deixant les cometes, així:
 
     GRUB_CMDLINE_LINUX_DEFAULT=”"
 
-Si voleu eliminar la imatge de fons del grub
+Si voleu eliminar la imatge de fons del grub en Liurex:
 
     sudo nano /etc/default/grub.d/05-lliurex-background.cfg
 

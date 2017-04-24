@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Desactivar Plymouth"
+title: "Desactivar Plymouth i fons del Grub"
 date:   2017-04-17 06:12:12
-description: 
+description:
 coments: true
 category: tips
 tags: [plymouth]
@@ -13,6 +13,10 @@ Per fer-ho sols cal editar el següent fitxer /etc/default/grub
 
     $ sudo nano /etc/default/grub
 
+En lliurex:
+
+    $ sudo nano /etc/default/grub.d/06-lliurex-cmdline.cfg
+
 Dins d'aquest fitxer editem la següent línia
 
     GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash"
@@ -20,6 +24,14 @@ Dins d'aquest fitxer editem la següent línia
 Sols hem d'esborrar quiet splash, deixant les cometes, així:
 
     GRUB_CMDLINE_LINUX_DEFAULT=”"
+
+Si voleu eliminar la imatge de fons del grub
+
+    sudo nano /etc/default/grub.d/05-lliurex-background.cfg
+
+sols cal editar i deixar així:
+
+    GRUB_BACKGROUND=""
 
 A continuació hem d'actualitzar el grub amb el següent comandament:
 

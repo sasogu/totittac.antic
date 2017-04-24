@@ -3,6 +3,8 @@ layout: post
 title: "Idees per a un portal educatiu"
 date:   2017-02-10 12:12:12
 description: Per demanar que no siga
+category: tic
+tags: [ctic]
 ---
 
 Aquestes són unes reflexions al voltant del que podria contenir un portal educatiu que fóra atractiu, funcional i útil per a una comunitat educativa. És un llistat provisional que vaig adaptant segons se'm van ocorrent idees, si voleu acompanyar-me, podeu comentar aquest post.

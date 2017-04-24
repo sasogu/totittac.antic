@@ -3,6 +3,8 @@ layout: post
 title: "Experiències amb un Chromebook i GalliumOS"
 date:   2017-04-10 12:12:12
 description: Bon hardware a bon preu
+category: tic
+tags: [hardware, chromebook]
 ---
 Fa uns mesos que sóc el feliç propietari d’un [Acer Chromebook R 11](https://www.acer.com/ac/es/ES/content/professional-series/acerchromebookr11c738t), pels que no conegueu aquest tipus de maquinari, bàsicament es tracta d’un portàtil que executa Linux i el navegador Chrome, però només aquest és «visible». Quan executes el sistema disposes  del navegador i un explorador d’arxius (el local i el del núvol).
 

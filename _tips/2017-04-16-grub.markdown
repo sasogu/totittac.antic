@@ -4,6 +4,8 @@ title: "Canvia l'ordre d'arrancada en Lliurex"
 date:   2017-04-16 09:12:12
 description: Edita Grub2 manualment
 coments: true
+category: tips
+tags: [lliurex, grub]
 ---
 Si volem canviar l'ordre d'arranc del nostre ordinador amb GNU/Linux el primer que hem de fer és anar a  Aplicacions/Accessoris/Terminal i teclejar:
 

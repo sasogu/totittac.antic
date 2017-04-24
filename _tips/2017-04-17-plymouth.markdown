@@ -5,7 +5,7 @@ date:   2017-04-17 06:12:12
 description:
 coments: true
 category: tips
-tags: [plymouth]
+tags: [plymouth, lliurex]
 ---
 Una de les primeres coses que faig quan instal·le qualsevol sistema operatiu GNU/Linux és eliminar el Plymouth, és a dir, el logo del sistema que apareix en iniciar i finalitzar l'ordinador. Personalment m'agrada vorer passar les línies per consola que indiquen com es carreguen tots els servicis i aplicacions.
 

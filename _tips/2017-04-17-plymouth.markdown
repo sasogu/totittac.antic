@@ -17,7 +17,7 @@ En Lliurex la ruta és diferent:
 
     $ sudo nano /etc/default/grub.d/06-lliurex-cmdline.cfg
 
-Dins d'aquest fitxer editem la següent línia
+Dins d'aquest fitxer editem la següent línia:
 
     GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash"
 

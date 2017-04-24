@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Canviar fons de pantalla d'inici en Lliurex"
+date:   2017-04-20 10:15:26
+description:
+coments: true
+category: tips
+tags: [lightdm]
+---
+Per canviar el fons de pantalla del login de Lliurex cal editar l'arxiu de configuració que es troba en 99_lliurex.conf
+
+    sudo pluma /etc/lightdm/lightdm-gtk-greeter.conf.d/99_lliurex.conf
+
+i canviem la línia background= per la ruta de la imatge que desitgem

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: autor
-permalink: about/
+permalink: 
 ---
 
 <img class="col one right" src="..//img/sasogu.jpg">
@@ -11,7 +11,7 @@ El meu nom és Samuel Soriano Guardiola, més conegut a la xarxa com @sasogu. He
 <br>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:sasogu@edutictac.es"> <i class="fa fa-envelope-o" aria-hidden="true"></i>	</a>
+	<a href="http://www.google.com/recaptcha/mailhide/d?k=01HAdZKuSgpW5ZyYpCuWJN1w==&c=-ophYr2oOc2sSGb75q84RoTfnr7ETVLIDcwNhQuBCow=" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>	</a>
 	<a href="https://telegram.me/sasogu" target="_blank"> <i class="fa fa-paper-plane" aria-hidden="true"></i></a>
 	<a href="https://github.com/sasogu" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/sasogu/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
